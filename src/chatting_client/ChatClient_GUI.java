@@ -49,7 +49,7 @@ public class ChatClient_GUI {
 	public void go() {
 
 		frame = new JFrame("Chat Client");
-		frame.setTitle(user_id+" is chatting with "+ destid);
+		frame.setTitle(destid+" is chatting with "+ user_id); //20201216 수정사항
 		JPanel mainPanel = new JPanel();
 		incoming = new JTextArea(15, 40);
 		incoming.setLineWrap(true);
@@ -122,7 +122,7 @@ public class ChatClient_GUI {
 		public void actionPerformed(ActionEvent ev) {
 			try {
 
-				writer.println(user_id + "가 종료했습니다.");
+				writer.println(user_id + "가 대화를 종료하였습니다."); //20201216 수정사항
 				writer.flush();
 				sock.close();
 				frame.setVisible(false);

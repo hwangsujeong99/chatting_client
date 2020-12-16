@@ -31,7 +31,7 @@ public class Login_win {
 	public static String test_password = "hi";
 
 	/**
-	 * Launch the application.
+	 * Launch the application.0
 	 */
 	public static void main(String[] args) {
 

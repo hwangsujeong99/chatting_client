@@ -255,7 +255,7 @@ public class Chat_win extends JFrame {
 		contentPane.add(btn_search);
 
 		JLabel lblNewLabel = new JLabel("Friend List");
-		lblNewLabel.setBounds(15, 142, 121, 15);
+		lblNewLabel.setBounds(15, 142, 121, 15);  // 20201216 수정사항
 		contentPane.add(lblNewLabel);
 
 		JLabel lblSearchFriend = new JLabel("Search Friend");

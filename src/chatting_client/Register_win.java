@@ -68,8 +68,8 @@ public class Register_win {
 		lblNewLabel.setBounds(71, 47, 81, 15);
 		frame.getContentPane().add(lblNewLabel);
 
-		JLabel lblPassword = new JLabel("password");
-		lblPassword.setBounds(71, 80, 70, 15);
+		JLabel lblPassword = new JLabel("password(E or N)");
+		lblPassword.setBounds(71, 80, 100, 15);
 		frame.getContentPane().add(lblPassword);
 
 		JLabel lblNewLabel_1_1 = new JLabel("name");
@@ -84,8 +84,8 @@ public class Register_win {
 		lblNewLabel_1_1_1_1.setBounds(71, 186, 70, 15);
 		frame.getContentPane().add(lblNewLabel_1_1_1_1);
 
-		JLabel lblNewLabel_1 = new JLabel("birth");
-		lblNewLabel_1.setBounds(71, 222, 70, 15);
+		JLabel lblNewLabel_1 = new JLabel("birth(yyyymmdd)");
+		lblNewLabel_1.setBounds(71, 222, 90, 15); //20201216 수정사항
 		frame.getContentPane().add(lblNewLabel_1);
 
 		textField_un = new JTextField();
